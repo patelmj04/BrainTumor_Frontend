@@ -1,0 +1,56 @@
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.description {
+  border-radius: 46px;
+  background-color: rgba(207, 240, 237, 0.5);
+  margin-top: 72px;
+  padding: 83px 70px;
+  font-weight: 600; /* Replace with actual weight */
+  font-size: 24px;   /* Replace with actual size */
+  line-height: 38px;
+  font-family: 'YourFontFamily', sans-serif; /* Replace with actual font */
+}
+
+.callToAction {
+  margin-top: 146px;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: Inter, sans-serif;
+}
+
+.uploadButton {
+  border-radius: 50px;
+  background-color: #351f65;
+  width: 342px;
+  max-width: 100%;
+  color: #fff;
+  margin: 52px 0 -4px;
+  padding: 20px 70px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1;
+  font-family: Inter, sans-serif;
+  border: 2px solid #6240e8;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .description {
+    margin-top: 40px;
+    padding: 40px 20px;
+  }
+
+  .callToAction {
+    margin-top: 40px;
+  }
+
+  .uploadButton {
+    margin-top: 40px;
+    padding: 20px;
+  }
+}
