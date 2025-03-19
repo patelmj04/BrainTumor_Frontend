@@ -8,18 +8,18 @@ const Landing = () => {
   const cards = [
     {
       title: 'Advanced AI Detection',
-      description: 'State-of-the-art algorithms for accurate and rapid brain tumor detection.',
-      image: '/images/Shinchan.jpg?height=600&width=600',
+      description: 'Top Notch algorithms for accurate and rapid brain tumor detection.',
+      image: '/images/Tumor.png?height=600&width=600',
     },
     {
-      title: 'User-Friendly Interface',
-      description: 'Intuitive platform designed for medical professionals and patients alike.',
-      image: '/images/Shinchan.jpg?height=600&width=600',
+      title: 'User-Friendly',
+      description: 'Platform designed for medical professionals as well as patients .',
+      image: '/images/Friendly.png?height=600&width=600',
     },
     {
       title: 'Secure and Confidential',
-      description: 'Enterprise-grade security and encryption to protect your data.',
-      image: '/images/Shinchan.jpg?height=600&width=600',
+      description: 'We protect your data.',
+      image: '/images/Security.png?height=600&width=600',
     },
   ]
 
@@ -36,7 +36,7 @@ const Landing = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex-shrink-0 flex items-center">
-              <img src="/ .svg?height=32&width=32" alt="NeuroInsight Logo" width={32} height={32} className="h-8 w-auto" />
+              <img src="/images/Neuro.png?height=32&width=32" alt="NeuroInsight Logo" width={32} height={32} className="h-8 w-auto" />
               <span className="ml-2 text-xl font-semibold">NeuroInsight</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -139,18 +139,18 @@ const Landing = () => {
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-              <ul className="space-x-4">
-                <li><a href="#" className="text-gray-600 hover:text-gray-900">Twitter</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-gray-900">aedIn</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-gray-900">Facebook</a></li>
-              </ul>
-            </div>
-            <div>
               <h3 className="text-lg font-semibold mb-4">Support</h3>
               <ul>
                 <li><a href="/faq" className="text-gray-600 hover:text-gray-900">FAQ</a></li>
                 <li><a href="/help" className="text-gray-600 hover:text-gray-900">Help Center</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+              <ul className="space-x-4">
+                <li><a href="#" className="text-gray-600 hover:text-gray-900">Twitter</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-gray-900">LinkedIn</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-gray-900">Facebook</a></li>
               </ul>
             </div>
             <div>

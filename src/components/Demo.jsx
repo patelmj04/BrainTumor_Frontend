@@ -36,7 +36,7 @@ const Demo = () => {
             <div className="flex justify-between h-16">
               <div className="flex-shrink-0 flex items-center">
                 <Link to="/">
-                  <img src="/placeholder.svg" alt="NeuroInsight Logo" width={32} height={32} className="h-8 w-auto" />
+                  <img src="/images/Neuro.png" alt="NeuroInsight Logo" width={32} height={32} className="h-8 w-auto" />
                 </Link>
                 <Link to="/" className="ml-2 text-xl font-semibold text-gray-900">NeuroInsight</Link>
               </div>
